@@ -87,9 +87,18 @@ st.subheader("Work Experience")
 
 with st.expander('Reinvention as a Full-time Developer - Work In Progress'):
   st.write("""
-    * GLOBAL INGENIEROS - Part time: January 2016 - present
-    * Management of all stages of building safety consulting, being the main client the transnational chain CENCOSUD for Metro, Wong, Paris stores in different cities of Peru.
-www.globalingenieros.com""")
+    * DATA ANALYSIS PROJECT:
+      *TITLE: Technology Employee Map of Peru 
+      *Technologies: Python,Streamlite,Linux
+      *LINK OF THE PROJECT: https://robertogonzalez.streamlit.app/  --- WORK IN PROGRESS
+    * BACKEND PROJECT: 
+      *TITLE: Civil Engineering ERP using backend framework Odoo.
+      *LINK OF THE PROJECT:  https://construye.tech/  --- WORK IN PROGRESS
+      * Technologies: Python,Odoo,PostgreSql,AWS,Linux
+    * FRONTEND PROJECT: Develop of Landing Page 
+      *LINK OF THE PROJECT:  https://kirito9623.github.io/landing-demo-01/
+      * Technologies: html,CSS,Javascript
+""")
 
 with st.expander('Civil Engineering Entrepreneur'):
   st.write("""
@@ -133,22 +142,4 @@ col2.write( """
 
 
 #contact form
-
-st.subheader("Send me a message")
-
-st.markdown(
-    """
-    If you are interested in ne, please contact me using the form below.
-    """
-)
-
-st.form(key="contact_form")
-st.markdown("Name:")
-name = st.text_input("Your name")
-st.markdown("Email:")
-email = st.text_input("Your email")
-st.markdown("Message:")
-message = st.text_area("Your message")
-if st.button("Submit"):
-    st.markdown("Thank you for your message! I will get back to you soon.")
 
