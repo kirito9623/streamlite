@@ -26,11 +26,11 @@ col2.write( """
 
 st.subheader("About me")
 st.markdown(
-    """I am a developer and data analyst, with a passion for using data to solve complex problems, i use
+    """I am a developer, with a passion for using data to solve complex problems, i use
     the system thinking and metalearning to achieve my goals.
     I am always looking for new challenges and opportunities to learn and grow.
     I am passionate about web development, psychology, technology, personal growth and weigth lifting.
-    My purpose to help other for help me, and i think the technology is the mean to make a just and free world.
+    My purpose is to help others, that's how I feel fulfilled, and I believe that technology is the means to create a more just and free world.
     """)
 
 
